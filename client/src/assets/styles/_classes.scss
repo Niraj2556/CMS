@@ -1,0 +1,43 @@
+/* Boxex */
+.box-accent {
+    background-color: $accent;
+    color: $light;
+    padding: 0.8em;
+}
+
+.box-light {
+    background-color: $gray;
+    color: $accent;
+    padding: 0.8em;
+}
+
+.box-dark {
+    background-color: $dark;
+    color: $light;
+    padding: 0.8em;
+}
+
+.content {
+    padding: 1em;
+}
+
+/* Alignment */
+.center {
+    text-align: center;
+}
+
+/* Items */
+.link {
+    color:$extra;
+}
+
+.title {
+    font-size: $font-big;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
